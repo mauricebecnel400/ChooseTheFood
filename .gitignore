@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/lamda/node_modules
 
 # testing
 /coverage
