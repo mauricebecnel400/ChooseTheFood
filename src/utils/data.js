@@ -7,7 +7,8 @@ export function getData(data, cb) {
     const searchRequest = {
         term: 'restaurants',
         latitude: data.location.latitude,
-        longitude: data.location.longitude
+        longitude: data.location.longitude,
+        is_closed: false
     };
     request.post({url: "https://w4l385nu83.execute-api.us-west-1.amazonaws.com/Dev/business", form: JSON.stringify(searchRequest)}, function(error, response, body){
         if (!error) cb(body);
