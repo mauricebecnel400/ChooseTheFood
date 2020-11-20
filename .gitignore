@@ -10,6 +10,8 @@
 # production
 /build
 
+/functions/getRandomData/node_modules
+
 # misc
 .DS_Store
 .env.local
