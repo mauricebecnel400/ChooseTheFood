@@ -17,7 +17,10 @@ componentDidUpdate(prevprops, prevstate){
 }
 
 componentDidMount(){
-    getLocation((location)=> this.setState({location : location}));
+    getLocation((location)=> {
+        console.log(location);
+        this.setState({location : location})
+    });
 }
 
 Categories (props) {

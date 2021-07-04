@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajax": "0.0.4",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
     "http": "0.0.0",
     "netlify-lambda": "^2.0.1",
     "react": "^16.14.0",
@@ -15,6 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "start:lambda": "netlify-lambda serve functions",
+    "build:lamda": "netlify-lambda serve functions",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
