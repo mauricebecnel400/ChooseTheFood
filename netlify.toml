@@ -1,3 +1,5 @@
 [build]
     functions = "lambda"
-    Command = "npm run prod"
+    command = "npm run prod"
+    publish= "/build"
+    base = ""
