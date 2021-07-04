@@ -9,6 +9,7 @@
 
 # production
 /build
+/lamda
 
 # misc
 .DS_Store
